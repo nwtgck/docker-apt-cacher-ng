@@ -1,4 +1,7 @@
 # docker-apt-cacher-ng
+Docker image for caching apt powered by `apt-cacher-ng`.
+
+![docker-apt-cacher-ng demo](demo-images/use-cache.gif)
 
 ## Run
 
