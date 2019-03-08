@@ -8,7 +8,7 @@ Docker image for caching apt powered by `apt-cacher-ng`.
 Run the cache server as follows.
 
 ```bash
-docker run -it -p 3142:3142 -v $PWD/docker-volumes/apt-cacher-ng:/var/cache/apt-cacher-ng cache
+docker run -it -p 3142:3142 -v $PWD/docker-volumes/apt-cacher-ng:/var/cache/apt-cacher-ng nwtgck/apt-cacher-ng
 ```
 
 All caches are persisted under `$PWD/docker-volumes/`. So, you can easily to down the server and restart.
